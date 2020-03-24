@@ -38,7 +38,7 @@ export default class AddTransaction extends Component {
               type="number" 
               name="amount" 
               className="form-control" 
-              placeholder="0.00"
+              placeholder="0"
               onChange={this.onChange} 
               value={this.state.amount}
             />
